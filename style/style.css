@@ -1,0 +1,1178 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-color: black;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+img {
+  pointer-events: none;
+}
+.fullPage {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+.black50 {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.opacity0 {
+  opacity: 0;
+}
+.hide {
+  display: none;
+}
+.lrCenter {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+.tbCenter {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+.lrtbCenter {
+  left: 0;
+  right: 0;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+::-webkit-input-placeholder {
+  /* WebKit browsers */
+  color: white;
+}
+:-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  color: white;
+}
+::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: white;
+}
+:-ms-input-placeholder {
+  /* Internet Explorer 10+ */
+  color: white;
+}
+input {
+  caret-color: white;
+}
+.lightAni {
+  animation: myfirst 2s linear 0s 1 alternate forwards;
+  -moz-animation: myfirst 2s linear 0s 1 alternate forwards;
+  /* Firefox */
+  -webkit-animation: myfirst 2s linear 0s 1 alternate forwards;
+  /* Safari 和 Chrome */
+  -o-animation: myfirst 2s linear 0s 1 alternate forwards;
+  /* Opera */
+}
+@keyframes myfirst {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-moz-keyframes myfirst {
+  /* Firefox */
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes myfirst {
+  /* Safari 和 Chrome */
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-o-keyframes myfirst {
+  /* Opera */
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+#loadPage {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background-color: black;
+  color: black;
+  z-index: 1;
+}
+#loadPage .start1 {
+  position: absolute;
+  width: 3.83333333rem;
+  height: 2.06666667rem;
+  top: 10%;
+  right: 10%;
+}
+#loadPage .start2 {
+  position: absolute;
+  width: 5.9rem;
+  height: 3.36666667rem;
+  bottom: 10%;
+  left: 10%;
+}
+#loadPage .lineBox {
+  width: 14.93333333rem;
+  height: 1rem;
+  left: 0;
+  right: 0;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+#loadPage .lineBox .line1 {
+  left: 0;
+  right: 0;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  width: 14.93333333rem;
+  height: 1rem;
+}
+#loadPage .lineBox .moveLineBox {
+  width: 14.96666667rem;
+  height: 1rem;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  right: 0;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+#loadPage .lineBox .moveLineBox .line2 {
+  left: 0;
+  right: 0;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  width: 14.96666667rem;
+  height: 1rem;
+}
+#loadPage .slBox {
+  left: 0;
+  right: 0;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  height: 3.7rem;
+  width: 14.93333333rem;
+}
+#loadPage .slBox .sl {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  right: 0;
+  height: 3.7rem;
+  width: 3.83333333rem;
+}
+#loadPage .slBox .sl img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 29%;
+}
+#loadPage .loadW {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  width: 5rem;
+  height: 0.93333333rem;
+  left: 81%;
+}
+#loadPage .loadW img {
+  position: absolute;
+  width: 0.53333333rem;
+  height: 0.93333333rem;
+}
+#loadPage .loadW .loadW1 {
+  left: 0;
+}
+#loadPage .loadW .loadW2 {
+  left: 0.6rem;
+}
+#loadPage .loadW .loadW3 {
+  left: 1.2rem;
+}
+#loadPage .loadW .loadW4 {
+  left: 1.8rem;
+}
+.clear {
+  clear: both;
+}
+.p1 .biao {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 7.06666667rem;
+  height: 8.06666667rem;
+  top: 40%;
+}
+.p1 .biao .zs {
+  position: absolute;
+  width: 1.56666667rem;
+  height: 2.9rem;
+  left: 42%;
+  top: 10%;
+}
+.p1 .biao .zBox {
+  left: 0;
+  right: 0;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  width: 4.6rem;
+  height: 4.63333333rem;
+}
+.p1 .bi {
+  position: absolute;
+  width: 6.56666667rem;
+  height: 10.2rem;
+  right: 0;
+  bottom: 0;
+}
+.p1 .bi .xianBox {
+  position: absolute;
+  width: 2.33333333rem;
+  height: 1.16666667rem;
+  left: 0;
+  top: -10%;
+}
+.p1 .bi > img {
+  animation: biAni 1.2s linear 0s infinite forwards;
+  -moz-animation: biAni 1.2s linear 0s infinite forwards;
+  /* Firefox */
+  -webkit-animation: biAni 1.2s linear 0s infinite forwards;
+  /* Safari 和 Chrome */
+  -o-animation: biAni 1.2s linear 0s infinite forwards;
+  /* Opera */
+}
+@keyframes biAni {
+  0% {
+    top: 0;
+    left: 0;
+  }
+  100% {
+    top: -10%;
+    left: 20%;
+  }
+}
+@-moz-keyframes biAni {
+  /* Firefox */
+  0% {
+    top: 0;
+    left: 0;
+  }
+  100% {
+    top: -10%;
+    left: 20%;
+  }
+}
+@-webkit-keyframes biAni {
+  /* Safari 和 Chrome */
+  0% {
+    top: 0;
+    left: 0;
+  }
+  100% {
+    top: -10%;
+    left: 20%;
+  }
+}
+@-o-keyframes biAni {
+  /* Opera */
+  0% {
+    top: 0;
+    left: 0;
+  }
+  100% {
+    top: -10%;
+    left: 20%;
+  }
+}
+.p1 .girlR {
+  position: absolute;
+  width: 8.23333333rem;
+  height: 8.2rem;
+  top: 43%;
+  left: 54%;
+}
+.p1 .girlL {
+  position: absolute;
+  width: 8.53333333rem;
+  height: 11.26666667rem;
+  top: 47%;
+  left: 6%;
+}
+.p1 .girlC {
+  position: absolute;
+  width: 6.3rem;
+  height: 16.23333333rem;
+  top: 53%;
+  left: 38%;
+}
+.p2 .star2 {
+  position: absolute;
+  width: 7.36666667rem;
+  height: 8.46666667rem;
+  bottom: 0;
+  left: 0;
+}
+.p2 .zhiBox {
+  left: 0;
+  right: 0;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  width: 20.8rem;
+  height: 35.7rem;
+}
+.p2 .zhiBox .star1 {
+  position: absolute;
+  width: 3.93333333rem;
+  height: 1.96666667rem;
+  top: 30%;
+  left: 86%;
+}
+.p2 .zhiBox .name {
+  position: absolute;
+  width: 5.96666667rem;
+  height: 1.63333333rem;
+  top: 66%;
+  left: 11%;
+}
+.p2 .zhiBox .nameInput {
+  position: absolute;
+  z-index: 999;
+  width: 9.53333333rem;
+  height: 2.6rem;
+  top: 65%;
+  left: 43%;
+}
+.p2 .zhiBox .nameInput input {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 5%;
+  width: 90%;
+  height: 2rem;
+  line-height: 2rem;
+  font-size: 1rem;
+  text-align: left;
+  color: white;
+  background-color: rgba(0, 0, 0, 0);
+  border: 0;
+}
+.p2 .zhiBox .nameTip {
+  position: absolute;
+  width: 6.86666667rem;
+  height: 1.23333333rem;
+  top: 73%;
+  left: 54%;
+}
+.p2 .zhiBox .btn {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 7.5rem;
+  height: 2.76666667rem;
+  bottom: 13%;
+}
+.p2 .wordTipDialog {
+  z-index: 1000;
+}
+.p2 .wordTipDialog .box {
+  width: 14.46666667rem;
+  height: 14.16666667rem;
+  left: 0;
+  right: 0;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+.p2 .wordTipDialog .box .closeBtn {
+  position: absolute;
+  width: 0.86666667rem;
+  height: 0.83333333rem;
+  top: 0.7rem;
+  right: 0.7rem;
+}
+.ansTip {
+  position: absolute;
+  width: 1.63333333rem;
+  height: 1.63333333rem;
+  left: -0.5rem;
+  bottom: 0.5rem;
+}
+.ansTip .tipImg,
+.ansTip .tipImg2 {
+  width: 0.86666667rem !important;
+  height: 0.9rem !important;
+  left: 0;
+  right: 0;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  display: none;
+}
+.ansTipActive .tipImg2 {
+  display: block;
+}
+.ans > .option {
+  position: relative;
+  width: 100%;
+  height: auto;
+  left: 0;
+  top: 0;
+}
+.ans1 > .option {
+  position: relative;
+  width: 100%;
+  height: auto;
+  left: 0;
+  top: 0;
+}
+.p3 .tip {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 20.33333333rem;
+  height: 0.83333333rem;
+  top: 5%;
+}
+.p3 .lb {
+  position: absolute;
+  width: 10.46666667rem;
+  height: 4.9rem;
+  left: 0;
+  bottom: 0;
+}
+.p3 .girlBox {
+  position: absolute;
+  width: 9.7rem;
+  height: 7.2rem;
+  right: 0;
+  bottom: 0;
+}
+.p3 .book {
+  position: absolute;
+  width: 2.93333333rem;
+  height: 6.46666667rem;
+  left: 0;
+  top: 50%;
+}
+.p3 .lhBox {
+  position: absolute;
+  width: 4.96666667rem;
+  height: 3.53333333rem;
+  left: 83%;
+  top: -2%;
+}
+.p3 .box {
+  left: 0;
+  right: 0;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  width: 19.16666667rem;
+  height: 29.66666667rem;
+}
+.p3 .box .quesion {
+  position: relative;
+  left: 0.03333333rem;
+  width: 19.1rem;
+  height: 8.13333333rem;
+}
+.p3 .box .ans {
+  position: relative;
+  width: 19.16666667rem;
+}
+.p4 .tip {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 20.33333333rem;
+  height: 0.83333333rem;
+  top: 5%;
+}
+.p4 .box {
+  left: 0;
+  right: 0;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  width: 19.16666667rem;
+  height: 29.66666667rem;
+}
+.p4 .box .quesion {
+  position: relative;
+  left: 0.03333333rem;
+  width: 19.1rem;
+  height: 8.13333333rem;
+}
+.p4 .box .ans {
+  position: relative;
+  width: 19.16666667rem;
+}
+.p4 .biao {
+  position: absolute;
+  width: 3.1rem;
+  height: 3.43333333rem;
+  left: 86%;
+  top: 1%;
+}
+.p4 .biao .zBox {
+  position: absolute;
+  left: 2%;
+  right: 0;
+  top: 8%;
+  bottom: 0;
+  margin: auto;
+  width: 1.96666667rem;
+  height: 2.03333333rem;
+}
+.p4 .lbBox {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 12.86666667rem;
+  height: 12.06666667rem;
+}
+.p4 .ren {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 13.1rem;
+  height: 7.93333333rem;
+}
+.p4 .star {
+  position: absolute;
+  left: 0;
+  top: 30%;
+  width: 3.86666667rem;
+  height: 2rem;
+}
+.p5 .tip {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 20.33333333rem;
+  height: 0.83333333rem;
+  top: 5%;
+}
+.p5 .box {
+  left: 0;
+  right: 0;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  width: 19.16666667rem;
+  height: 29.66666667rem;
+}
+.p5 .box .quesion {
+  position: relative;
+  left: 0.03333333rem;
+  width: 19.1rem;
+  height: 8.13333333rem;
+}
+.p5 .box .ans1 {
+  position: relative;
+  width: 19.16666667rem;
+}
+.p5 .book {
+  position: absolute;
+  width: 5.03333333rem;
+  height: 3.26666667rem;
+  left: 80%;
+  top: -1%;
+}
+.p5 .gilr {
+  position: absolute;
+  width: 13.93333333rem;
+  height: 8.56666667rem;
+  right: 0;
+  bottom: 0;
+}
+.p5 .qiqiu {
+  position: absolute;
+  width: 2.46666667rem;
+  height: 3.7rem;
+  right: 0;
+  top: 40%;
+}
+.p5 .y_l {
+  position: absolute;
+  width: 1.9rem;
+  height: 2.5rem;
+  left: 0;
+  top: 50%;
+}
+.p5 .y_lb {
+  position: absolute;
+  width: 5.36666667rem;
+  height: 3.63333333rem;
+  left: 0;
+  bottom: 0;
+}
+.p5 .y_r {
+  position: absolute;
+  width: 1.66666667rem;
+  height: 3.86666667rem;
+  right: 0;
+  top: 75%;
+}
+.p6 .tip {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 20.33333333rem;
+  height: 0.83333333rem;
+  top: 5%;
+}
+.p6 .box {
+  left: 0;
+  right: 0;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  width: 19.16666667rem;
+  height: 29.66666667rem;
+}
+.p6 .box .quesion {
+  position: relative;
+  left: 0.03333333rem;
+  width: 19.1rem;
+  height: 8.13333333rem;
+}
+.p6 .box .ans1 {
+  position: relative;
+  width: 19.16666667rem;
+}
+.p6 .bi {
+  position: absolute;
+  width: 3.33333333rem;
+  height: 3.13333333rem;
+  top: 3%;
+  left: 85%;
+}
+.p6 .biao {
+  position: absolute;
+  width: 9.96666667rem;
+  height: 11.6rem;
+  right: 0;
+  bottom: 0;
+}
+.p6 .star {
+  position: absolute;
+  width: 15.46666667rem;
+  height: 4.6rem;
+  left: 0;
+  bottom: 0;
+}
+.p6 .die {
+  position: absolute;
+  width: 3.53333333rem;
+  height: 3rem;
+  left: 84%;
+  top: 41%;
+}
+.p6 .p1 {
+  position: absolute;
+  width: 1.06666667rem;
+  height: 1.96666667rem;
+  left: 0%;
+  top: 45%;
+}
+.p6 .p2 {
+  position: absolute;
+  width: 1.46666667rem;
+  height: 1.7rem;
+  left: 24%;
+  top: 90%;
+}
+.p7 .tip {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 20.33333333rem;
+  height: 0.83333333rem;
+  top: 5%;
+}
+.p7 .box {
+  left: 0;
+  right: 0;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  width: 19.16666667rem;
+  height: 29.66666667rem;
+}
+.p7 .box .quesion {
+  position: relative;
+  left: 0.03333333rem;
+  width: 19.1rem;
+  height: 8.13333333rem;
+}
+.p7 .box .ans {
+  position: relative;
+  width: 19.16666667rem;
+}
+.p7 .mf {
+  position: absolute;
+  width: 2.96666667rem;
+  height: 3rem;
+  top: 0;
+  left: 89%;
+}
+.p7 .rb {
+  position: absolute;
+  width: 8.43333333rem;
+  height: 4.56666667rem;
+  bottom: 0;
+  right: 0;
+}
+.p7 .lb {
+  position: absolute;
+  width: 3.56666667rem;
+  height: 3.03333333rem;
+  bottom: 0;
+  left: 0;
+}
+.p7 .lh {
+  position: absolute;
+  width: 3rem;
+  height: 3.96666667rem;
+  top: 20%;
+  left: -12%;
+}
+.p8 {
+  overflow: hidden;
+}
+.p8 .box {
+  position: absolute;
+  width: 15rem;
+  height: 26.68rem;
+  left: 0;
+  top: 0;
+}
+.p8 .box .name {
+  position: absolute;
+  width: 3.2rem;
+  height: 0.72rem;
+  line-height: 0.72rem;
+  font-size: 0.72rem;
+  right: 66%;
+  top: 52%;
+  color: red;
+  text-align: center;
+}
+.p8 .box .bgBox1 .s0 {
+  position: absolute;
+  width: 2.36rem;
+  height: 2.56rem;
+  left: 62%;
+  top: 35%;
+}
+.p8 .box .bgBox1 .name {
+  right: 66%;
+  top: 50.5%;
+}
+.p8 .box .bgBox1_hb .s0 {
+  position: absolute;
+  width: 2.36rem;
+  height: 2.56rem;
+  left: 62%;
+  top: 30%;
+}
+.p8 .box .bgBox1_hb .name {
+  right: 66%;
+  top: 47%;
+}
+.p8 .box .bgBox2 .s20 {
+  position: absolute;
+  width: 2.76rem;
+  height: 2.38rem;
+  left: 58%;
+  top: 35%;
+}
+.p8 .box .bgBox2 .name {
+  right: 66%;
+  top: 50.5%;
+}
+.p8 .box .bgBox2_hb .s20 {
+  position: absolute;
+  width: 2.76rem;
+  height: 2.38rem;
+  left: 58%;
+  top: 31%;
+}
+.p8 .box .bgBox2_hb .name {
+  right: 66%;
+  top: 47%;
+}
+.p8 .box .bgBox3 .s40 {
+  position: absolute;
+  width: 2.84rem;
+  height: 2.4rem;
+  left: 56%;
+  top: 35%;
+}
+.p8 .box .bgBox3 .name {
+  right: 66%;
+  top: 50.5%;
+}
+.p8 .box .bgBox3_hb .s40 {
+  position: absolute;
+  width: 2.84rem;
+  height: 2.4rem;
+  left: 56%;
+  top: 31%;
+}
+.p8 .box .bgBox3_hb .name {
+  right: 66%;
+  top: 47%;
+}
+.p8 .box .bgBox4 .s60 {
+  position: absolute;
+  width: 2.64rem;
+  height: 2.36rem;
+  left: 56%;
+  top: 35%;
+}
+.p8 .box .bgBox4 .name {
+  right: 67%;
+  top: 51.7%;
+}
+.p8 .box .bgBox4_hb .s60 {
+  position: absolute;
+  width: 2.64rem;
+  height: 2.36rem;
+  left: 56%;
+  top: 31%;
+}
+.p8 .box .bgBox4_hb .name {
+  right: 66%;
+  top: 47.5%;
+}
+.p8 .box .bgBox5_hb .s80 {
+  position: absolute;
+  width: 2.74rem;
+  height: 2.38rem;
+  left: 56%;
+  top: 31%;
+}
+.p8 .box .bgBox5_hb .name {
+  right: 66%;
+  top: 47%;
+}
+.p8 .box .bgBox5 .s80 {
+  position: absolute;
+  width: 2.74rem;
+  height: 2.38rem;
+  left: 56%;
+  top: 35%;
+}
+.p8 .box .bgBox5 .name {
+  right: 66%;
+  top: 50.8%;
+}
+.p8 .box .bgBox6 .s100 {
+  position: absolute;
+  width: 2.98rem;
+  height: 2.42rem;
+  left: 56%;
+  top: 38%;
+}
+.p8 .box .bgBox6 .name {
+  right: 67%;
+  top: 54%;
+}
+.p8 .box .bgBox6_hb .s100 {
+  position: absolute;
+  width: 2.98rem;
+  height: 2.42rem;
+  left: 56%;
+  top: 33%;
+}
+.p8 .box .bgBox6_hb .name {
+  right: 66%;
+  top: 50%;
+}
+.p8 .bgBoxShow {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+}
+.p8 .bgBoxShow .showBox {
+  width: 25rem;
+  height: 44.46666667rem;
+  left: 0;
+  right: 0;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+.p8 .bgBoxShow .tipWord {
+  position: absolute;
+  width: 8.46666667rem;
+  height: 1.7rem;
+  right: 6%;
+  bottom: 14.5%;
+}
+.p8 .bgBoxShow .tipJiantou {
+  position: absolute;
+  width: 1.23333333rem;
+  height: 1.56666667rem;
+  right: 6%;
+  bottom: 10%;
+}
+.p8 .waiting .word {
+  position: absolute;
+  width: 9.36666667rem;
+  height: 1.3rem;
+  left: 29%;
+  top: 59%;
+}
+.p8 .waiting .clock {
+  position: absolute;
+  width: 6.16666667rem;
+  height: 7.33333333rem;
+  right: 0;
+  top: 0;
+}
+.p8 .waiting .dianBox {
+  position: absolute;
+  width: 1.4rem;
+  height: 0.2rem;
+  left: 68%;
+  top: 61.5%;
+}
+.p8 .waiting .star {
+  position: absolute;
+  width: 3.86666667rem;
+  height: 2.1rem;
+  left: 20%;
+  top: 84%;
+}
+.p8 .waiting .star3 {
+  position: absolute;
+  width: 2.46666667rem;
+  height: 4.43333333rem;
+  left: 3%;
+  top: 40%;
+}
+.p8 .waiting .star2 {
+  position: absolute;
+  width: 4.96666667rem;
+  height: 4.33333333rem;
+  left: 77%;
+  top: 56%;
+}
+.p8 .btn1 {
+  position: absolute;
+  width: 7.4rem;
+  height: 2.36666667rem;
+  left: 59%;
+  bottom: 5%;
+}
+.p8 .btn2 {
+  position: absolute;
+  width: 7.4rem;
+  height: 2.36666667rem;
+  right: 59%;
+  bottom: 5%;
+}
+.saveImg {
+  pointer-events: auto;
+  opacity: 0;
+}
+.shareTip {
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 50;
+}
+.shareTip .jiantou {
+  position: absolute;
+  width: 4.83333333rem;
+  height: 8.93333333rem;
+  right: 1rem;
+  top: 0;
+}
+.shareTip .dialog {
+  left: 0;
+  right: 0;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  width: 14.43333333rem;
+  height: 14.16666667rem;
+}
+.shareTip .dialog .closeBtn {
+  position: absolute;
+  width: 2rem;
+  height: 2rem;
+  top: 0;
+  right: 0;
+}
+.subBtn {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  bottom: 5%;
+  width: 10rem;
+  height: 3.33333333rem;
+  z-index: 1;
+}
+.subBtn img {
+  left: 0;
+  right: 0;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  height: auto!important;
+  width: 100%!important;
+}
+.jiantouTip {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  bottom: 5%;
+  width: 8.53333333rem;
+  height: 1.4rem;
+  z-index: 1;
+}
+.jiantouTip .jiantouTip12 {
+  width: 0.7rem;
+  height: 0.63333333rem;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  left: 10%;
+}
+.music {
+  position: absolute;
+  width: 2.93333333rem;
+  height: 2.93333333rem;
+  top: 1rem;
+  right: 1rem;
+  z-index: 49;
+}
+.noSwiper {
+  z-index: 100;
+}
+.nextPage {
+  z-index: 1;
+}
+.nextPage .box {
+  left: 0;
+  right: 0;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  width: 14.46666667rem;
+  height: 14.13333333rem;
+}
+.nextPage .box .nexBtn {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 5.83333333rem;
+  height: 1.4rem;
+  bottom: 2rem;
+}
+.nextPage .box .closeBtn {
+  position: absolute;
+  width: 0.86666667rem;
+  height: 0.86666667rem;
+  top: 0.55rem;
+  right: 0.6rem;
+}
+.downPage {
+  z-index: 1;
+}
+.downPage .box {
+  left: 0;
+  right: 0;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  width: 14.66666667rem;
+  height: 16rem;
+}
+.downPage .box .downAppBtn {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 3.66666667rem;
+  height: 1.4rem;
+  bottom: 1rem;
+}
+.downPage .box .closeBtn {
+  position: absolute;
+  width: 0.86666667rem;
+  height: 0.86666667rem;
+  top: 0.6rem;
+  right: 0.6rem;
+}
